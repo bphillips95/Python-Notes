@@ -26,10 +26,20 @@ def compare():
     print(st)
 # compare()
 food = ["pizza","pasta","soup","chips","hot dogs"]
-def loopFunc():
-    for f in food:
-        if (f == "chips"): break
-        print(f)
+# def loopFunc():
+#     for f in food:
+#         if (f == "chips"): break
+#         print(f)
 
 
-loopFunc()
+# loopFunc()
+# function to find if arr includes chips return index
+def findChips():
+    for i,f in enumerate(food):
+        if(f == "chips"):
+            print(f + " are located at index " + str(i))
+
+findChips()
+# break and continue in loops
+
+instead of console logging use print to debug
