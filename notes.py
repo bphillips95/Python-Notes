@@ -42,4 +42,5 @@ def findChips():
 findChips()
 # break and continue in loops
 
-instead of console logging use print to debug
+# instead of console logging use print to debug
+
